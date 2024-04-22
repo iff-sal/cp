@@ -1,3 +1,5 @@
+#cpp
+
 $(if $(filter-out 1,$(words $(MAKECMDGOALS))),$(error Expected one target))
 name := $(MAKECMDGOALS)
 CC = g++
